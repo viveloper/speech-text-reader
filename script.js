@@ -97,9 +97,6 @@ function getVoices() {
 
     voicesSelect.appendChild(option);
   });
-  if (voices.length > 0) {
-    setVoice(voices[0].name);
-  }
 }
 
 // Set text
@@ -139,4 +136,4 @@ readBtn.addEventListener('click', () => {
   speakText();
 });
 
-getVoices();
+// getVoices();
